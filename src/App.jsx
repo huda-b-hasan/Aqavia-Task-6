@@ -2,13 +2,13 @@
 import './App.css'
 
 import AppRoutes from './routes/Routes'
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import {  Routes, Route, BrowserRouter } from 'react-router-dom';
 function App() {
 
   return (
-    <HashRouter>
+    <BrowserRouter basename="/Aqavia-Task-6" >
       <AppRoutes/>
-    </HashRouter>
+    </BrowserRouter>
   
   )
 }

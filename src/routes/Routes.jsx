@@ -12,13 +12,12 @@ export default function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<LogIn />} /> 
-      
-      <Route path="home" element={<Home />} />
-      <Route path="users" element={<Users />} />
-      <Route path="restaurants" element={<Restaurants />} />
-      <Route path="drivers" element={<Driver />} />
-      <Route path="ads" element={<Ads />} />
-      <Route path="promocodes" element={<PromoCodes />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/users" element={<Users />} />
+      <Route path="/restaurants" element={<Restaurants />} />
+      <Route path="/drivers" element={<Driver />} />
+      <Route path="/ads" element={<Ads />} />
+      <Route path="/promocodes" element={<PromoCodes />} />
     </Routes>
   );
 }
