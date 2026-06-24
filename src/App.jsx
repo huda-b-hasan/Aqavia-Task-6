@@ -2,7 +2,7 @@
 import './App.css'
 
 import AppRoutes from './routes/Routes'
-import { HashRouter } from 'react-router/dist/development'
+import { HashRouter, Routes, Route } from 'react-router-dom';
 function App() {
 
   return (
