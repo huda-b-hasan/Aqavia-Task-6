@@ -7,5 +7,5 @@ export default defineConfig({
     tailwindcss(),
     react(), 
   ],
-  base: '/Aqavia-Task-6/'
+  base: './'
 })
