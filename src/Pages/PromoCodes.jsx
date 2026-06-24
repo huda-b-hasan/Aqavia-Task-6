@@ -40,7 +40,7 @@ export default function PromoCodes() {
         </div>
         <div>
           <div>
-            <CardWithImg img={promoBackround} title="تحليل أداء الحملات" description="اكتشف أي الأكواد تحقق أعلى نسبة مبيعات وأفضل وصول للعملاء."/>
+            <CardWithImg img={promoBackground} title="تحليل أداء الحملات" description="اكتشف أي الأكواد تحقق أعلى نسبة مبيعات وأفضل وصول للعملاء."/>
           </div>
           <div>
 
