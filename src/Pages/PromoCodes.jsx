@@ -2,14 +2,14 @@ import Button from "../Ui/Button";
 import Layout from "../Ui/Layout";
 import TitleMain from "../Ui/TitleMain";
 import Table from "../Ui/Table";
-import CardWithImg from "./CardWithImg";
+import CardWithImg from "../Ui/CardWithImg";
 
 import StatCard from "../Ui/StatCard";
 import { StatPromoConfig, PromoHead, PromoConfig } from "../config/Config";
 
 import plus from "../Image/plus.svg";
 
-import promoBackround from "../Image/promoBackround.png";
+import promoBackground from "../Image/promoBackground.png";
 
 export default function PromoCodes() {
   return (
