@@ -7,20 +7,18 @@ import Driver from '../Pages/Driver';
 import Ads from '../Pages/Ads';
 import Restaurants from '../Pages/Restaurants';
 import PromoCodes from '../Pages/PromoCodes';
-// import NotFound from '../pages/NotFound'; // صفحة 404 (اختياري)
 
 export default function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<LogIn />} />
-      <Route path="/home" element={<Home />} />
-      <Route path="/users" element={<Users />} />
-      <Route path="/restaurants" element={<Restaurants />} />
-      <Route path="/drivers" element={<Driver />} />
-      <Route path="/ads" element={<Ads />} />
-      <Route path="/promocodes" element={<PromoCodes />} />
-
-      {/* <Route path="/resturant" element={<Resturand />} /> */}
+      <Route path="/" element={<LogIn />} /> 
+      
+      <Route path="home" element={<Home />} />
+      <Route path="users" element={<Users />} />
+      <Route path="restaurants" element={<Restaurants />} />
+      <Route path="drivers" element={<Driver />} />
+      <Route path="ads" element={<Ads />} />
+      <Route path="promocodes" element={<PromoCodes />} />
     </Routes>
   );
 }
