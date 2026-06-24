@@ -16,46 +16,44 @@ import { useLocation } from "react-router";
 
 export default function NavAside() {
   const location = useLocation();
-  //   function handleChangeLink(){
 
-  //   }
   return (
     <div className="w-full h-full border-l border-[#E2E8F0] py-3  flex flex-col justify-between gap-5 max-sm:pt-6">
       <div className="flex flex-col w-full px-2  ">
         <LogoNav Img={Logo} />
         <div className="flex flex-col">
           <LinkNav
-            href="/home"
+            href="#/home"
             title="home"
             Icon={Home}
             active={location.pathname == "/home"}
           />
           <LinkNav
-            href={"/users"}
+            href={"#/users"}
             title="users"
             Icon={Users}
             active={location.pathname == "/users"}
           />
           <LinkNav
-            href={"/drivers"}
+            href={"#/drivers"}
             title="Drivers"
             Icon={Drivers}
             active={location.pathname == "/drivers"}
           />
           <LinkNav
-            href={"/restaurants"}
+            href={"#/restaurants"}
             title="Restaurants"
             Icon={Restaurants}
             active={location.pathname == "/restaurants"}
           />
           <LinkNav
-            href={"/ads"}
+            href={"#/ads"}
             title="Ads"
             Icon={Ads}
             active={location.pathname == "/ads"}
           />
           <LinkNav
-            href={"/promocodes"}
+            href={"#/promocodes"}
             title="Promo Codes"
             Icon={PromoCodes}
             active={location.pathname == "/promocodes"}
@@ -82,11 +80,11 @@ export default function NavAside() {
           active={location.pathname == "#"}
         />
         <LinkNav
-          href="/"
+          href="#/"
           title={"Log Out"}
           Icon={LogOut}
           color="red"
-          active={location.pathname == "#"}
+          active={location.pathname == "/"}
         />
       </div>
     </div>
