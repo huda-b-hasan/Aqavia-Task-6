@@ -2,12 +2,14 @@ import Button from "../Ui/Button";
 import Layout from "../Ui/Layout";
 import TitleMain from "../Ui/TitleMain";
 import Table from "../Ui/Table";
+import CardWithImg from "./CardWithImg";
 
 import StatCard from "../Ui/StatCard";
 import { StatPromoConfig, PromoHead, PromoConfig } from "../config/Config";
 
 import plus from "../Image/plus.svg";
 
+import promoBackround from "../Image/promoBackround.png";
 
 export default function PromoCodes() {
   return (
@@ -38,10 +40,10 @@ export default function PromoCodes() {
         </div>
         <div>
           <div>
-            <CardWithImg title="تحليل أداء الحملات" description="اكتشف أي الأكواد تحقق أعلى نسبة مبيعات وأفضل وصول للعملاء."/>
+            <CardWithImg img={promoBackround} title="تحليل أداء الحملات" description="اكتشف أي الأكواد تحقق أعلى نسبة مبيعات وأفضل وصول للعملاء."/>
           </div>
           <div>
-            
+
           </div>
         </div>
       </>
