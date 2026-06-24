@@ -1,14 +1,14 @@
 // Pages 
 import './App.css'
 
-import { BrowserRouter } from 'react-router'
 import AppRoutes from './routes/Routes'
+import { HashRouter } from 'react-router/dist/development'
 function App() {
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AppRoutes/>
-    </BrowserRouter>
+    </HashRouter>
   
   )
 }
