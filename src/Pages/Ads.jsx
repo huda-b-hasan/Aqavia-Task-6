@@ -1,5 +1,4 @@
 import Button from "../Ui/Button";
-import Layout from "../Ui/Layout";
 import StatCard from "../Ui/StatCard";
 import Table from "../Ui/Table";
 import TitleMain from "../Ui/TitleMain";
@@ -8,7 +7,6 @@ import { StatAdsConfig } from "../config/Config";
 import { AdsHead,AdsConfig } from "../config/Config";
 export default function Ads() {
   return (
-    <Layout>
       <>
         <div className="mb-5">
           {/* title section  */}
@@ -58,6 +56,5 @@ export default function Ads() {
           </div>
         </div>
       </>
-    </Layout>
   );
 }

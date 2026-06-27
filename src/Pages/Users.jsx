@@ -4,12 +4,10 @@ import Button from "../Ui/Button";
 import { UsersHead, UsersConfig } from '../config/Config';
 import UserPlus from "../Image/UserPlus.svg";
 import { CgArrowLeft, CgArrowRight } from "react-icons/cg";
-import Layout from "../Ui/Layout";
 import Table from "../Ui/Table";
 
 export default function Users() {
   return (
-    <Layout>
       <>
         <div className="mb-5">
           <TitleMain
@@ -52,6 +50,5 @@ export default function Users() {
           </div>
         </div>
       </>
-    </Layout>
   );
 }

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import NavAside from "./NavAside";
 import NavTop from "./NavTop";
-
-export default function Layout({children}) {
+import { Outlet } from 'react-router-dom';
+export default function Layout() {
   const [openNAvAside, setOpenNAvAside] = useState(false);
   function handleChangeNavAside() {
     setOpenNAvAside(!openNAvAside);
@@ -25,7 +25,7 @@ export default function Layout({children}) {
             <NavTop handleChangeNavAside={handleChangeNavAside} />
           </nav>
           <div className="w-full px-7 max-md:px-4 max-sm:px-2 py-5 box-border">
-             {children}
+             <Outlet/>
           </div>
         </main>
       </div>

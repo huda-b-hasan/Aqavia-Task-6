@@ -6,12 +6,10 @@ import TitleMain from "../Ui/TitleMain";
 import { StatConfig } from "../config/Config";
 import { lastOrdersConfig,lastOrderssHead } from "../config/Config";
 import { driverConfig } from "../config/Config";
-import Layout from "../Ui/Layout";
 import Table from "../Ui/Table";
 
 export default function Home() {
   return (
-    <Layout>
       <>
         <div>
           <div className="mb-5">
@@ -40,6 +38,5 @@ export default function Home() {
           {/* Close Last Orders Table  */}
         </div>
       </>
-    </Layout>
   );
 }

@@ -1,5 +1,4 @@
 import Button from "../Ui/Button";
-import Layout from "../Ui/Layout";
 import TitleMain from "../Ui/TitleMain";
 import Table from "../Ui/Table";
 import CardWithImg from "../Ui/CardWithImg";
@@ -13,7 +12,6 @@ import promoBackground from "../Image/promoBackground.png";
 
 export default function PromoCodes() {
   return (
-    <Layout>
       <>
         <div className="mb-5">
           {/* title section  */}
@@ -47,6 +45,5 @@ export default function PromoCodes() {
           </div>
         </div>
       </>
-    </Layout>
   );
 }

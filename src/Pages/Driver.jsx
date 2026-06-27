@@ -1,5 +1,4 @@
 import Button from "../Ui/Button";
-import Layout from "../Ui/Layout";
 import TitleMain from "../Ui/TitleMain";
 import Table from "../Ui/Table";
 import CurrentDriver from "../Ui/CurrentDriver";
@@ -11,7 +10,6 @@ import lock from "../Image/lock.svg";
 import { DriverConfig,DriverHead,StatDriverConfig } from "../config/Config";
 export default function Driver() {
   return (
-    <Layout>
       <>
         <div className="mb-5">
           {/* title section  */}
@@ -52,6 +50,5 @@ export default function Driver() {
           <Table columns={DriverHead} config={DriverConfig}/>
         </div>
       </>
-    </Layout>
   );
 }

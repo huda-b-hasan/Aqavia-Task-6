@@ -1,5 +1,4 @@
 import Button from "../Ui/Button";
-import Layout from "../Ui/Layout";
 import TitleMain from "../Ui/TitleMain";
 import Table from "../Ui/Table";
 
@@ -11,7 +10,6 @@ import DetailsResturant from "../Ui/DetailsResturant";
 import ResturantState from "../Ui/ResturantState";
 export default function Restaurants() {
   return (
-    <Layout>
       <>
         <div className="mb-5">
           {/* title section  */}
@@ -48,6 +46,5 @@ export default function Restaurants() {
           </div>
         </div>
       </>
-    </Layout>
   );
 }
